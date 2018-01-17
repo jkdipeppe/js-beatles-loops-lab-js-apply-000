@@ -20,6 +20,6 @@ function iLoveTheBeatles(number) {
   var arr = [];
   do {
     arr.push('I love the Beatles!');
-  } while (arr.length <= number && num < 15);
+  } while (arr.length <= number && number < 15);
   return arr;
 }
